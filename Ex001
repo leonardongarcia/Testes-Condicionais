@@ -1,0 +1,22 @@
+/******************************************************************************
+
+1) Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+que C. 
+
+*******************************************************************************/
+#include <stdio.h>
+
+float verificarSeAMaisBMenorQueC(float A, float B) {
+    
+   float somaAeB = A + B;
+   return somaAeB;
+}
+int main() {
+    
+    printf("%d\n", verificarSeAMaisBMenorQueC(15, 15) < 35);
+    printf("%d\n", verificarSeAMaisBMenorQueC(20, 20) < 50);
+    printf("%d\n", verificarSeAMaisBMenorQueC(25, 25) < 60);
+    printf("%d\n", verificarSeAMaisBMenorQueC(25, 25) > 40);
+
+    return 0;
+}
