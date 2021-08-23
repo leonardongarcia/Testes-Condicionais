@@ -6,17 +6,17 @@ que C.
 *******************************************************************************/
 #include <stdio.h>
 
-float verificarSeAMaisBMenorQueC(float A, float B) {
+int verificarSeAMaisBMenorQueC(int A, int B, int C) {
     
-   float somaAeB = A + B;
-   return somaAeB;
+      return (A + B) < C;
 }
+
 int main() {
     
-    printf("%d\n", verificarSeAMaisBMenorQueC(15, 15) < 35);
-    printf("%d\n", verificarSeAMaisBMenorQueC(20, 20) < 50);
-    printf("%d\n", verificarSeAMaisBMenorQueC(25, 25) < 60);
-    printf("%d\n", verificarSeAMaisBMenorQueC(25, 25) > 40);
+    printf("%d\n", verificarSeAMaisBMenorQueC(15, 15, 35));
+    printf("%d\n", verificarSeAMaisBMenorQueC(20, 20, 50));
+    printf("%d\n", verificarSeAMaisBMenorQueC(45, 25, 60));
+    printf("%d\n", verificarSeAMaisBMenorQueC(25, 25, 40));
 
     return 0;
 }
