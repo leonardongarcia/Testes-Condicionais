@@ -1,0 +1,21 @@
+/******************************************************************************
+
+6) Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são
+VERDADEIROS ou FALSOS. 
+
+*******************************************************************************/
+#include <stdio.h>
+
+float mostarResultado (float num1, float num2) {
+    
+    return num1 >= num2;
+}
+
+int main() {
+    
+    printf("%d\n", mostarResultado (10, 10) == 1);
+    printf("%d\n", mostarResultado (5, 5) == 1);
+    printf("%d\n", mostarResultado (30, 10) == 1);
+    printf("%d\n", mostarResultado (4, 5) == 0);
+    return 0;
+}
