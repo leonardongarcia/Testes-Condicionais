@@ -14,7 +14,7 @@ float mostrarResultado (float num) {
 int main() {
     
     printf("%d\n", mostrarResultado(8.0f) == 16.0f);
-    printf("%d\n", mostrarResultado(8.0f) == 16.0f);
+    printf("%d\n", mostrarResultado(9.8f) == 19.6f);
     printf("%d\n", mostrarResultado(-5.5f) == -16.5f);
     printf("%d\n", mostrarResultado(-5.0f) == -15.0f);
 
