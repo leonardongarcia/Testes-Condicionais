@@ -1,0 +1,22 @@
+/******************************************************************************
+
+5) Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo,
+imprimindo o resultado. 
+
+*******************************************************************************/
+#include <stdio.h>
+
+float mostrarResultado (float num) {
+    
+    return num > 0.0f ? num * 2.0f : num * 3.0f; 
+} 
+
+int main() {
+    
+    printf("%d\n", mostrarResultado(8.0f) == 16.0f);
+    printf("%d\n", mostrarResultado(8.0f) == 16.0f);
+    printf("%d\n", mostrarResultado(-5.5f) == -16.5f);
+    printf("%d\n", mostrarResultado(-5.0f) == -15.0f);
+
+    return 0;
+}
