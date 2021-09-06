@@ -1,0 +1,22 @@
+/******************************************************************************
+
+7) Faça um algoritmo que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar,
+imprimir o resultado desta operação. 
+
+*******************************************************************************/
+#include <stdio.h>
+
+float mostraResultado (int num) {
+    
+    return num % 2 == 0 ? num + 5 : num + 8;
+}
+
+int main() {
+    
+    printf("%d\n", mostraResultado(18) == 23);
+    printf("%d\n", mostraResultado(1980) == 1985);
+    printf("%d\n", mostraResultado(11) == 19);
+    printf("%d\n", mostraResultado(1237) == 1245);
+
+    return 0;
+}
